@@ -5,6 +5,18 @@ A "plugin" for Phonegap to add JRSwizzle to the iOS part of your project when yo
 
 It's designed to be plugin play (hah hah hah) so have at it.
 
+
+Installation
+------------
+
+Inside of your phonegap project, run this:
+
+```
+cordova plugin add https://github.com/joedski/phonegap-jrswizzle
+```
+
+You can probably use Plugman too.  I dunno.
+
 Licenses
 --------
 
