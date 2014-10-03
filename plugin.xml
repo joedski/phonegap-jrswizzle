@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  id="org.rentzsch.jrswizzle"
+  version="1.0.0">
+  <name>JRSwizzle</name>
+  <description>This adds Rentzsch's JRSwizzle for Correctly Done Method Swizzling using corvenient methods attached directly to NSObject.</description>
+  <license>Apache 2.0</license>
+  <keywords>Objective C, Method Swizzling</keywords>
+  <repo>https://github.com/joedski/phonegap-jrswizzle.git</repo>
+  <issue>https://github.com/joedski/phonegap-jrswizzle/issues</issue>
+
+  <!-- ios -->
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="JRSwizzle">
+        <param name="ios-package" value="JRSwizzle" />
+      </feature>
+    </config-file>
+
+    <header-file src="JRSwizzle/JRSwizzle.h" />
+    <source-file src="JRSwizzle/JRSwizzle.m" />
+  </platform>
+
+</plugin>
