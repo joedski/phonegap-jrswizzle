@@ -26,3 +26,5 @@ Licenses
 --------
 
 The ... uh.  ... well, there's not really much here, is there?  JRSwizzle code is under MIT so there's that.  The plugin.xml doesn't really have anything copyright worthy in it, though, since anyone can arrive at that given form.  So whatever.
+
+Note: The direct inclusion of JRSwizzle source code does not imply a change of licensing of any code therein.  Not that that means much since it's MIT and MIT is like super permissive, but just being explicit and stuff.
